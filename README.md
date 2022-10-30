@@ -1,1 +1,1 @@
-# hello-nikki
+# "Hello World" style repository to teach Nikki how to code
