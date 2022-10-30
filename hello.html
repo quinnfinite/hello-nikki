@@ -14,7 +14,80 @@
         Anything between the opening and closing body tags will
         be shown to the user.
      -->
-    <h1> Hello Nikki! </h1>
+    <h1 id="hello"> Hello World! </h1>
+    <div id="puppies"></div>
+    
+    
+    <script>
+        // Script tags signify JavaScript
+        // Notice anything different about these comments?
+
+        // A few things you can do with JS in the client:
+        // Uncomment the code for each section to see the change!
+
+        // 1. Change "attributes" of elements
+        // const hello = document.getElementById('hello') // Select the element (there are many ways to do this)
+        // hello.innerHTML = 'Hello Nikki!' // change an attribute - text inside of the element
+        // hello.style.color = '#722F37' // change another attribute - color of the element
+
+        // 2. Add Elements to the DOM (Document Object Model)
+        // const aussiePuppies = document.createElement('img')
+        // aussiePuppies.src = "https://cdn.britannica.com/55/164255-050-AAADAF11/litter-Australian-Shepherd-puppies.jpg"
+        // aussiePuppies.style.height = '50%'
+        // aussiePuppies.style.width = '50%'
+
+        // Uncomment one of these at a time. What happens when they're bot uncommented? What's the difference?
+        // document.body.appendChild(aussiePuppies);
+        // 
+        // document.getElementById("puppies").append(aussiePuppies)
+
+        // 3. Log to the console
+        // console.log('Korean BBQ is delicious!')
+
+        // 4. Store data
+
+        // const girls = ['Nikki', 'Mel', 'Pam', 'Jess'] // Note: [] signifies an Array in JavaScript
+        // var guys = ['Quinn', 'Brian', 'David', 'Felipe' ]
+        // let gifItToMeHarderDaddy = girls.concat(guys) // concat is a method on Array 
+        // What's a method? We'll get to that later. For now, think of it as a function provided by an Array
+        // console.log("Gif It To Me Harder Daddy: ", gifItToMeHarderDaddy)
+        
+        // Notice how we DEFINED and ASSIGNED three different fumble types
+        // Q: How could we render the list of gifItToMeHarderDaddy on the screen?
+        // Q: Is there an html tag that would be best?
+
+        // 5. Manipulate data
+        // Let's say you want to add last names to your friend list (gifItToMeHarderDaddy)
+
+        // var firstFriendInList = gifItToMeHarderDaddy[0]
+        // firstFriendInList = "Insert string for Last Name Here" 
+        // Q: What is a "string?"
+        // friendInList = gifItToMeHarderDaddy[gifItToMeHarderDaddy.length - 1] // What is length? Why do we subtract 1
+        // lastFriendInList = "Insert string for Last Name Here"
+        // Notice: variable re-assignment
+
+        // 6. Write functions
+        // function addLastNames (arr) {
+        //  for (var i = 0; i < arr.length; i++) {
+        //      arr[i] = arr[i] + " " + "Last Name"
+        //   }
+        // // Bonus: Update the for loop to only update every other person
+        // // Hint 1: There are multiple ways to do this.
+        // // Hint 2: Notice how each item in the array is accessed
+        // // Hint 3: Notice how we iterate over the array
+
+        // // Bonus: Only update 1 person's name
+         
+        //     console.log('arr after changes: ', arr)
+        // }
+        
+        
+
+        // 7. Invoking the function
+        // addLastNames(gifItToMeHarderDaddy)
+
+        // And more...
+    </script>
     </body>
 </html> <!-- Closing Tag </tagName>-->
 
